@@ -5,7 +5,6 @@ public class UItools {
         // Create a button with the specified text
         JButton button = new JButton(text);
         button.setAlignmentX(JButton.CENTER_ALIGNMENT);
-       
         return button;
     }
 }

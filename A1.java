@@ -32,13 +32,15 @@ public class A1 {
         JPanel body = new JPanel();
         body.setLayout(new BorderLayout());
         body.setBackground(Color.LIGHT_GRAY);
-        body.add(Send.GUi(), BorderLayout.CENTER); // Initial content of the body
+        body.add(Send.GUi(), BorderLayout.CENTER);
 
 
         navbar.add(Box.createHorizontalGlue());
         JButton sendButton = uiTools.btn_1("Send");
+
         JButton reciveButton = uiTools.btn_1("recive");
         navbar.add(sendButton);
+        navbar.add(Box.createRigidArea(new Dimension(20, 0)));
         navbar.add(reciveButton);
         navbar.add(Box.createHorizontalGlue());
 
