@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-import uitolld.UItools;
+import uitolld.*;
 
 import java.awt.*;
 
